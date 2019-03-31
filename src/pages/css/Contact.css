@@ -1,0 +1,33 @@
+
+.Topic {
+    text-align: center;
+    font-size: 48px;
+    color : #333;
+}
+
+.Contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Image {
+    width : 20px;
+    margin : 10px;
+    font-weight : 700;
+}
+
+.Image:hover{
+    transform: scale(1.25);
+}
+
+.Full-Content {
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 600px) {
+    .Image {
+        width : 50px;
+        margin : 30px;
+    };
+  }

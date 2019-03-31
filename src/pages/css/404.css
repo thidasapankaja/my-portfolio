@@ -1,0 +1,15 @@
+
+.Invalid {
+    font-family: 'Inconsolata', monospace;
+    font-size: 64px;
+    color: #333;
+    text-align: center;
+    margin-top: 200px;
+}
+
+@media screen and (min-width: 600px) {
+    .Invalid {
+        margin-top: 200px;
+        font-size: 84px;
+    }
+   }
