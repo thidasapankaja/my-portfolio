@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { StaticQuery, graphql } from 'gatsby';
 import Project from '../components/project';
+import SEO from '../components/seo';
 
 import Layout from '../components/layout';
 
@@ -23,6 +24,8 @@ class Projects extends Component {
   render() {
     return (
       <Layout>
+        <SEO title="My projects" description="Projects which were completed/contributed by me"/>
+        <h1 hidden>My Projects</h1>
         <StaticQuery
             query={graphql`
                 query ProjectsQuery {

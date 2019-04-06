@@ -7,9 +7,10 @@ if(process.env.NODE_ENV !== 'production'){
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Portfolio of Thidasa Pankaja`,
+    description: `Portfolio of Thidasa Pankaja Paranavitharana`,
+    author: `Thidasa Pankaja Paranavitharana`,
+    siteUrl: `https://www.thidasapankaja.me/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,6 +41,15 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap.xml`,
+        policy: [{ userAgent: '*', disallow: '' }],
       },
     },
     {

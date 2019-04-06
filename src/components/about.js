@@ -14,7 +14,6 @@ const H1 = styled.h1`
   font-size: 48px;
 `
 
-
 const About = () => {
     return (
         <div className='about'>

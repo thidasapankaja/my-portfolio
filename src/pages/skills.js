@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import { StaticQuery, graphql } from 'gatsby';
+import SEO from '../components/seo';
 
 import '../components/layout.css';
 import './css/Skills.css';
@@ -8,8 +9,11 @@ import './css/Skills.css';
 const SKill = ({node}) => {
   return <span key={node.id}><img alt={node.skill} src={node.displayImage.file.url}/></span>
 }
+
 const Skills = () => (
   <Layout>
+    <SEO title="My skills" description="Skills of Thidasa Pankaja Paranavitharana" />
+    <h1 hidden>My Skills</h1>
     <div className='Full-Content-Skills'>
       <div>
         <StaticQuery
