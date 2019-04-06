@@ -1,10 +1,3 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
@@ -35,21 +28,22 @@ function SEO({ description, lang, meta, keywords, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        { name: 'keywords', content: 'thidasa, pankaja, iampankaja, fullstack, javascript, reactjs, nodejs, c#, web developer, frontend' },
         {
           name: `description`,
-          content: metaDescription,
+          content: `Portfolio of Thidasa Pankaja Paranavitharana.`,
         },
         {
           property: `og:title`,
-          content: title,
+          content: `Thidasa Pankaja Paranavitharana`,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: `Portfolio of Thidasa Pankaja Paranavitharana.`,
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: `Portfolio`,
         },
         {
           name: `twitter:card`,
@@ -57,11 +51,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: `pankaja92`,
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `Thidasa Pankaja Paranavitharana`,
         },
         {
           name: `twitter:description`,
@@ -83,9 +77,9 @@ function SEO({ description, lang, meta, keywords, title }) {
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: [],
-  keywords: [],
-  description: ``,
+  meta: ['javascript', 'reactjs', 'c#','.net', 'nodejs', ],
+  keywords: ['thidasa', 'pankaja', 'fullstack', 'javascript', 'reactjs', 'c#','.net', 'nodejs', 'java', 'web developer', 'frontend'],
+  description: `Thidasa Pankaja Paranavitharana`,
 }
 
 SEO.propTypes = {

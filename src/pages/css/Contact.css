@@ -1,8 +1,7 @@
-
 .Topic {
-    text-align: center;
-    font-size: 48px;
-    color : #333;
+  text-align: center;
+  font-size: 48px;
+  color: #333;
 }
 
 .Contacts {
@@ -12,22 +11,22 @@
 }
 
 .Image {
-    width : 20px;
-    margin : 10px;
-    font-weight : 700;
+  width: 20px;
+  margin: 10px;
+  font-weight: 700;
 }
 
-.Image:hover{
-    transform: scale(1.25);
+.Image:hover {
+  transform: scale(1.25);
 }
 
 .Full-Content {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 @media screen and (min-width: 600px) {
-    .Image {
-        width : 50px;
-        margin : 30px;
-    };
+  .Image {
+    width: 50px;
+    margin: 30px;
   }
+}
