@@ -7,4 +7,4 @@
 // You can delete this file if you're not using it
 
 
-export const registerServiceWorker = () => true
+// export const registerServiceWorker = () => true
