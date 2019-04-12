@@ -1,6 +1,8 @@
 # Personal Website - V2
 
-This is my Personal Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee8a5a86-6e23-4b10-a6ef-b933ddedb183/deploy-status)](https://app.netlify.com/sites/thidasapankaja/deploys)
+
+This is my Personal Website - V2
 
 ### Tech Stack
 
@@ -15,7 +17,7 @@ This is my Personal Website
 - Animation
 - UX
 
-### Live version is hosted [Here](http://thidasapankaja.me)
+### Live version is hosted [Here](https://www.iampankaja.xyz/)
 
 ##### This project is bootsrapped with,
 
