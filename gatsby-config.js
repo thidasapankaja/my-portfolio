@@ -9,7 +9,7 @@ module.exports = {
     title: `Portfolio of Thidasa Pankaja`,
     description: `Portfolio of Thidasa Pankaja Paranavitharana`,
     author: `Thidasa Pankaja Paranavitharana`,
-    siteUrl: `https://www.thidasapankaja.me/`
+    siteUrl: `https://iampankaja.xyz`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,7 +34,6 @@ module.exports = {
         icon: `src/assets/me.png`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-contentful`,
       options: {
@@ -80,6 +79,22 @@ module.exports = {
           windows: false
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "iampankaja.xyz",
+      },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
