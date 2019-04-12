@@ -10,7 +10,7 @@ This is my Personal Website - V2
 - [GatsbyJS](https://www.gatsbyjs.org/)
 - [Contentful](https://www.contentful.com/)
 - [styled-components](https://www.styled-components.com/)
-- [Github-Pages](https://pages.github.com/)
+- [netlify](https://www.netlify.com)
 
 ### Todos
 
