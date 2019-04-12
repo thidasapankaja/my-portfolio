@@ -1,7 +1,6 @@
 const dotenv = require('dotenv');
 
 if(process.env.NODE_ENV !== 'production'){
-  console.log('dotenv');
   dotenv.config();
 }
 
@@ -26,15 +25,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Thidasa Pankaja Paranavitharana`,
+        short_name: `Portfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#ad0000`,
+        theme_color: `#ad0000`,
+        display: `standalone`,
         icon: `src/assets/me.png`, // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-contentful`,
       options: {
