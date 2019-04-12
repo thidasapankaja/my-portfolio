@@ -19,6 +19,4 @@ This is my Personal Website - V2
 
 ### Live version is hosted [Here](https://www.iampankaja.xyz/)
 
-##### This project is bootsrapped with,
-
-###### [The default Gatsby starter](http://gatsbyjs.github.io/gatsby-starter-default/)
+##### This project is bootsrapped with [The default Gatsby starter](http://gatsbyjs.github.io/gatsby-starter-default/)
