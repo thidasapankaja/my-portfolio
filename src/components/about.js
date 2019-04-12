@@ -20,7 +20,7 @@ const About = () => {
             <Paragraph>
                 Hi ! I&apos;m{' '}
             </Paragraph>
-                <H1> Thidasa Pankaja Paranavitharana.</H1>
+            <H1> Thidasa Pankaja Paranavitharana.</H1>
             <Paragraph>
                 I&apos;m a junior Fullstack developer @ <Highlight><a className='clickable-link' href='https://www.koku.io/' target="_blank" rel="noopener noreferrer">Koku </a></Highlight>. I&apos;m a Javascript
                 enthusiast, who like to keep up with new technologies. I&apos;m on my way
