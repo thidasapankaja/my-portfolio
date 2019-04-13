@@ -1,6 +1,8 @@
 # Personal Website - V2
 
-This is my Personal Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee8a5a86-6e23-4b10-a6ef-b933ddedb183/deploy-status)](https://app.netlify.com/sites/thidasapankaja/deploys)
+
+This is my Personal Website - V2
 
 ### Tech Stack
 
@@ -8,15 +10,14 @@ This is my Personal Website
 - [GatsbyJS](https://www.gatsbyjs.org/)
 - [Contentful](https://www.contentful.com/)
 - [styled-components](https://www.styled-components.com/)
-- [Github-Pages](https://pages.github.com/)
+- [netlify](https://www.netlify.com)
 
 ### Todos
 
+- Mobile responsiveness
 - Animation
 - UX
 
-### Live version is hosted [Here](http://thidasapankaja.me)
+### Live version is hosted [Here](https://www.iampankaja.xyz/)
 
-##### This project is bootsrapped with,
-
-###### [The default Gatsby starter](http://gatsbyjs.github.io/gatsby-starter-default/)
+##### This project is bootsrapped with [The default Gatsby starter](http://gatsbyjs.github.io/gatsby-starter-default/)
