@@ -63,9 +63,7 @@ const Skills = () => (
           )}
         /> 
       </div>
-  </div>
-
-       
+    </div>       
   </Layout>
 );
 
