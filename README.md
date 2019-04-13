@@ -14,6 +14,7 @@ This is my Personal Website - V2
 
 ### Todos
 
+- Mobile responsiveness
 - Animation
 - UX
 
