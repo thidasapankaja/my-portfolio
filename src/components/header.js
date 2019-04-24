@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 import me from '../assets/me.png';
 
-// import './layout.css';
-
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link className='linkStyle' to={props.to} activeClassName='activeClass'>{props.children}</Link>
