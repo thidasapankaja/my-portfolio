@@ -31,9 +31,10 @@ ul {
 
 html,
 body {
-  background-color: #ffaf00;
+  background-color: #e7eaf6;
   margin: 0;
   padding: 0;
+  color: #113f67;
   /* height: 100%; */
 }
 
@@ -60,8 +61,12 @@ body {
   color: inherit;
 }
 
+.clickable-link {
+  color: #a2a8d3 !important;
+}
+
 .clickable-link:hover {
-  color: black;
+  color: #113f67 !important;
 }
 
 .linkStyle {
@@ -71,15 +76,15 @@ body {
 @media screen and (min-width: 600px) {
   .linkStyle {
     font-size: 18px;
-    color: hsl(0, 0%, 45%);
+    color: #878caf;
   }
 
   .linkStyle:hover {
     font-size: 20px;
-    color: hsl(0, 0%, 13%);
+    color: #38598b;
   }
 }
 
 .activeClass {
-  color: #262020;
+  color: #38598b;
 }

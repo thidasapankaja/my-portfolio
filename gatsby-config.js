@@ -28,8 +28,8 @@ module.exports = {
         name: `Thidasa Pankaja Paranavitharana`,
         short_name: `Portfolio`,
         start_url: `/`,
-        background_color: `#ad0000`,
-        theme_color: `#ad0000`,
+        background_color: `#e7eaf6`,
+        theme_color: `#e7eaf6`,
         display: `standalone`,
         icon: `src/assets/me.png`, // This path is relative to the root of the site.
       },

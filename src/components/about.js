@@ -5,7 +5,6 @@ const Highlight = styled.span`
   font-weight : 800;
 `
 const Paragraph = styled.p`
-  color : #333;
   font-size : 28px;
   font-weight : 300;
 `
