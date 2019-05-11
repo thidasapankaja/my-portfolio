@@ -18,6 +18,6 @@ This is my Personal Website - V2
 - Animation
 - UX
 
-### Live version is hosted [Here](https://www.iampankaja.xyz/)
+### Live version is hosted [Here](https://thidasapankaja.xyz)
 
 ##### This project is bootsrapped with [The default Gatsby starter](http://gatsbyjs.github.io/gatsby-starter-default/)
