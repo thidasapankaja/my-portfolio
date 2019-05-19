@@ -80,22 +80,33 @@ module.exports = {
         }
       }
     },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+    //     // Puts tracking script in the head instead of the body
+    //     head: true,
+    //     // Setting this parameter is optional
+    //     anonymize: true,
+    //     // Setting this parameter is also optional
+    //     respectDNT: true,
+    //     // Any additional create only fields (optional)
+    //     sampleRate: 5,
+    //     siteSpeedSampleRate: 10,
+    //     cookieDomain: "iampankaja.xyz",
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        // your google analytics tracking id
+        trackingId: `${process.env.GOOGLE_ANALYTICS_TRACKING_ID}`,
         // Puts tracking script in the head instead of the body
-        head: true,
-        // Setting this parameter is optional
+        head: false,
+        // enable ip anonymization
         anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "iampankaja.xyz",
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
