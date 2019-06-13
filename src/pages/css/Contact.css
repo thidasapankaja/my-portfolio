@@ -3,6 +3,12 @@
   font-size: 48px;
 }
 
+@media (max-width: 600px) {
+  .Topic {
+    font-size: 28px;
+  }
+}
+
 .Contacts {
   display: flex;
   align-items: center;

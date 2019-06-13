@@ -2,14 +2,26 @@ import React from "react";
 import { Link } from "gatsby";
 import me from '../assets/me.png';
 
+import styled from 'styled-components';
+
+const Li = styled.li`
+  display: inline-block;
+  margin-left: 1rem;
+
+  @media (max-width: 380px) {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+`
+
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+  <Li>
     <Link className='linkStyle' to={props.to} activeClassName='activeClass'>{props.children}</Link>
-  </li>
+  </Li>
 )
 
 const Header = () => (
-    <header style={{ marginBottom: `1.5rem` }}>
+    <header>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
         <h3 style={{ display: `inline` }}><img src={me} style={{height:'40px', width:'40px'}} alt='me'/></h3>
       </Link>

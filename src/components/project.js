@@ -11,7 +11,10 @@ const Title = styled.h3`
   font-weight : 800;
   padding-top : -30px;
   margin-bottom : -1px;
-  font-size : 50px;
+  font-size : 48px;
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
 `
 
 const Checkstatus = (github, live) => {
@@ -55,12 +58,13 @@ const Project = ({ node }) => {
       <div key={node.key}  className='Card'>
         <div className='Full'>
             <Title>{node.title}</Title>
-            <p><span>{node.description.description}</span></p>
+            <p><span className='justify-text'>{node.description.description}</span></p>
             {node.projectSpecial ? 
-                <span style={{ color: 'white'}}>{node.projectSpecial.description.description}
-                <a style={{ color: 'white'}} href={node.projectSpecial.link} target="_blank" rel="noopener noreferrer">
-                    {node.projectSpecial.placeholder}
-                </a> {node.projectSpecial.descriptionSecondary.descriptionSecondary}
+                <span style={{ color: 'white'}} className='justify-text'>
+                  {node.projectSpecial.description.description}
+                  <a style={{ color: 'white'}} href={node.projectSpecial.link} target="_blank" rel="noopener noreferrer">
+                      {node.projectSpecial.placeholder}
+                  </a> {node.projectSpecial.descriptionSecondary.descriptionSecondary}
                 </span> 
                 : ''}
             <p><TechStack>{node.tech}</TechStack></p>

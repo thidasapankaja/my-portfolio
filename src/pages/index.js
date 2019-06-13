@@ -11,9 +11,6 @@ import '../components/layout.css'
 export default () => (
   <Layout>
     <SEO title="About me" description="Brief description about who am I"/>
-    {/* <Suspense fallback={<span>Loading ...</span>}>
-      <About />
-    </Suspense> */}
      <About />
   </Layout>
 )

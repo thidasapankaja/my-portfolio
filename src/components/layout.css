@@ -35,22 +35,17 @@ body {
   margin: 0;
   padding: 0;
   color: #113f67;
-  /* height: 100%; */
+  font-family: "Inconsolata", monospace;
 }
 
 .Full {
   margin: 40px;
-  font-family: "Inconsolata", monospace;
 }
 
 @media screen and (min-width: 600px) {
   .Full {
     font-size: 28px;
   }
-}
-
-.about {
-  font-family: "Inconsolata", monospace;
 }
 
 .clickable-link,
@@ -71,12 +66,12 @@ body {
 
 .linkStyle {
   text-decoration: none;
+  color: #878caf;
 }
 
-@media screen and (min-width: 600px) {
-  .linkStyle {
+@media screen and (max-width: 600px) {
+  .linkStyle h3 {
     font-size: 18px;
-    color: #878caf;
   }
 
   .linkStyle:hover {
@@ -87,4 +82,9 @@ body {
 
 .activeClass {
   color: #38598b;
+}
+
+.justify-text {
+  text-align: justify;
+  display: block;
 }
