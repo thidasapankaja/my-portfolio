@@ -10,7 +10,7 @@ const Contact = ({node}) => (
     href={node.url}
     target="_blank"
     rel="noopener noreferrer"
-    key={node.key}
+    key={node.id}
   >
     <img className='Image' alt={node.displayImage.title} src={node.displayImage.file.url} />
   </a>
@@ -48,7 +48,7 @@ export default () => (
               render = {({allContentfulContact}) => (
                 <div>
                   {allContentfulContact.edges.map((p, i) => (
-                      <Contact key={p.node.id} {...p} />
+                      <Contact key={p.id} {...p} />
                   ))}
                 </div>
               )}

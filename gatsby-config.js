@@ -6,8 +6,8 @@ if(process.env.NODE_ENV !== 'production'){
 
 module.exports = {
   siteMetadata: {
-    title: `Portfolio of Thidasa Pankaja`,
-    description: `Portfolio of Thidasa Pankaja Paranavitharana`,
+    title: `Thidasa Pankaja Paranavitharana`,
+    description: `Thidasa Pankaja Paranavitharana`,
     author: `Thidasa Pankaja Paranavitharana`,
     siteUrl: `https://iampankaja.xyz`
   },

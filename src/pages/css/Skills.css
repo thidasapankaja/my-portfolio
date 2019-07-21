@@ -1,41 +1,38 @@
 .Icon {
-    margin: 5px;
-    font-size: 25px;
+  margin: 5px;
+  font-size: 25px;
 }
 
 div > div > span > img {
-    width : 50px;
-    margin: 5px;
+  width: 50px;
+  margin: 5px;
 }
 
 .Special {
-    width:75;
+  width: 75;
 }
 
 @media screen and (min-width: 600px) {
-    .Icon {
-        margin: 10px;
-        font-size: 50px;
-    }
+  .Icon {
+    margin: 10px;
+    font-size: 50px;
+  }
 
-    div > div > span > img {
-        width : 75px;
-        margin: 10px;
-    }
+  div > div > span > img {
+    width: 75px;
+    margin: 10px;
+  }
 
-    .Special {
-        width:150px;
-    }
-    
+  .Special {
+    width: 150px;
+  }
 }
 
 .Full-Content-Skills {
-    margin-top: 150px;
-    text-align: center;
+  margin-top: 100px;
+  text-align: center;
 }
 
 .Design {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-
-

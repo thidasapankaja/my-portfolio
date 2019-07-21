@@ -27,15 +27,13 @@ const About = () => {
         </Paragraph>
         <H1> Thidasa Pankaja Paranavitharana.</H1>
         <Paragraph className='justify-text'>
-            I&apos;m a junior Fullstack developer @ <Highlight><a className='clickable-link' href='https://www.koku.io/' target="_blank" rel="noopener noreferrer">Koku </a></Highlight>. I&apos;m a Javascript
-            enthusiast, who like to keep up with new technologies. I&apos;m on my way
-            to specialize in JavaScript and my main area of interest is Fullstack
-            Development.
+            I&apos;m a Software Engineer @ <Highlight><a className='clickable-link' href='https://www.koku.io/' target="_blank" rel="noopener noreferrer">Koku</a></Highlight>. I&apos;m a Javascript
+            enthusiast, who like to keep up with new technologies. My main area of interest is Fullstack Development. I&apos;m working towards my goal of becoming a better Software Engineer.
         </Paragraph>
         <Paragraph className='justify-text'>
             My skill set includes{' '}
             <Highlight>
-            Javascript, React, Node, GraphQL Angularjs, CSS, HTML, MSSQL, C#, ASP.NET Core, MySQL, Git
+            Javascript, React, Node, GraphQL, MSSQL, C#, ASP.NET Core, CSS, HTML, MySQL, Git Angularjs
             </Highlight>{' '}
             and etc.👨 💻
         </Paragraph>

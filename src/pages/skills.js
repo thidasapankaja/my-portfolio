@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 import '../components/layout.css';
 import './css/Skills.css';
 
-const SKill = ({node}) => {
+const Skill = ({node}) => {
   return <span key={node.id}><img alt={node.skill} src={node.displayImage.file.url}/></span>
 }
 
@@ -49,14 +49,14 @@ const Skills = () => (
           `}
           render={({ dev, design }) => (
             <>
-              <div>
+              <div key='dev'>
                 {dev.edges.map((p, i) => (
-                  <SKill key={p.id} {...p} />
+                  <Skill {...p} />
                 ))}
               </div>
-                <div className="Design">
+              <div className="Design" key='design'>
                 {design.edges.map((p, i) => (
-                  <SKill key={p.id} {...p} />
+                  <Skill {...p} />
                 ))}
               </div>
             </>

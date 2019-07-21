@@ -55,7 +55,7 @@ const Checkstatus = (github, live) => {
 
 const Project = ({ node }) => {
     return(
-      <div key={node.key}  className='Card'>
+      <div key={node.id}  className='Card'>
         <div className='Full'>
             <Title>{node.title}</Title>
             <p><span className='justify-text'>{node.description.description}</span></p>

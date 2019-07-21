@@ -31,7 +31,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         { name: 'keywords', content: 'thidasa, pankaja, iampankaja, fullstack, javascript, reactjs, nodejs, c#, web developer, frontend' },
         {
           name: `description`,
-          content: `Portfolio of Thidasa Pankaja Paranavitharana.`,
+          content: `Thidasa Pankaja Paranavitharana.`,
         },
         {
           property: `og:title`,
@@ -39,7 +39,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:description`,
-          content: `Portfolio of Thidasa Pankaja Paranavitharana.`,
+          content: `Thidasa Pankaja Paranavitharana.`,
         },
         {
           property: `og:type`,
@@ -85,7 +85,7 @@ SEO.defaultProps = {
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
+  meta: PropTypes.arrayOf(PropTypes.string),
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
 }

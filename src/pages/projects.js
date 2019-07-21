@@ -55,9 +55,9 @@ class Projects extends Component {
                 }
             `}
             render={({ allContentfulProject }) => (
-                <div>
+                <div key='projects'>
                   {allContentfulProject.edges.map((p, i) => (
-                      <Project key={p.id} {...p} />
+                      <Project {...p} />
                   ))}
                 </div>
             )}
