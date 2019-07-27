@@ -55,19 +55,18 @@ body {
   color: #878caf;
 }
 
+.linkStyle:hover {
+  color: #38598b;
+}
+
 @media screen and (max-width: 600px) {
   .linkStyle h3 {
     font-size: 18px;
   }
-
-  .linkStyle:hover {
-    font-size: 20px;
-    color: #38598b;
-  }
 }
 
 .activeClass {
-  color: #38598b;
+  color: #113f67;
 }
 
 .justify-text {
