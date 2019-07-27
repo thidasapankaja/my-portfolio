@@ -5,10 +5,10 @@ import githubImage from '../assets/github.svg';
 import www from '../assets/www.svg';
 
 const TechStack = styled.span`
-  font-weight : 600;
+  font-weight : 400;
 `
 const Title = styled.h3`
-  font-weight : 800;
+  font-weight : 700;
   padding-top : -30px;
   margin-bottom : -1px;
   font-size : 48px;

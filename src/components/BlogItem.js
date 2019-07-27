@@ -13,7 +13,7 @@ const setDate = (date) => {
 }
 
 const Title = styled.a`
-    font-weight : 800;
+    font-weight : 700;
     font-size : 32px;
     text-decoration: none;
     color: #38598b;

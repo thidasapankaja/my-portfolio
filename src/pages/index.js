@@ -1,12 +1,10 @@
-import React, { lazy, Suspense} from "react"
+import React from "react"
 import Layout from "../components/layout"
 import About from '../components/about';
 
 import SEO from '../components/seo'
 
 import '../components/layout.css'
-
-// const About = lazy(() => import('../components/about'));
 
 export default () => (
   <Layout>

@@ -1,11 +1,6 @@
 h3 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
   margin-bottom: 1.45rem;
   color: inherit;
   text-rendering: optimizeLegibility;
@@ -14,14 +9,8 @@ h3 {
 }
 
 ul {
-  margin-left: 1.45rem;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin: 0 0 1.45rem 1.45rem;
+  padding: 0;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -84,4 +73,24 @@ body {
 .justify-text {
   text-align: justify;
   display: block;
+}
+
+.about-p {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.about-h1 {
+  margin: -20px 0 -10px;
+  font-size: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-p {
+    font-size: 22px;
+  }
+
+  .about-h1 {
+    font-size: 28px;
+  }
 }
