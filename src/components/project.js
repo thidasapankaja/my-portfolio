@@ -5,7 +5,8 @@ import githubImage from '../assets/github.svg';
 import www from '../assets/www.svg';
 
 const TechStack = styled.span`
-  font-weight : 400;
+  font-weight : 800;
+  color:#e7eaf6;
 `
 const Title = styled.h3`
   font-weight : 700;
