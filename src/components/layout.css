@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
 h3 {
   margin: 0;
   padding: 0;
@@ -21,7 +23,7 @@ body {
   margin: 0;
   padding: 0;
   color: #113f67;
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata";
 }
 
 .Full {
