@@ -28,7 +28,11 @@ function SEO({ description, lang, meta, keywords, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
-        { name: 'keywords', content: 'thidasa, pankaja, iampankaja, fullstack, javascript, reactjs, nodejs, c#, web developer, frontend' },
+        {
+          name: "keywords",
+          content:
+            "thidasa, pankaja, iampankaja, fullstack, javascript, reactjs, nodejs, c#, web developer, frontend",
+        },
         {
           name: `description`,
           content: `Thidasa Pankaja Paranavitharana.`,
@@ -77,8 +81,20 @@ function SEO({ description, lang, meta, keywords, title }) {
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: ['javascript', 'reactjs', 'c#','.net', 'nodejs', ],
-  keywords: ['thidasa', 'pankaja', 'fullstack', 'javascript', 'reactjs', 'c#','.net', 'nodejs', 'java', 'web developer', 'frontend'],
+  meta: ["javascript", "reactjs", "c#", ".net", "nodejs"],
+  keywords: [
+    "thidasa",
+    "pankaja",
+    "fullstack",
+    "javascript",
+    "reactjs",
+    "c#",
+    ".net",
+    "nodejs",
+    "java",
+    "web developer",
+    "frontend",
+  ],
   description: `Thidasa Pankaja Paranavitharana`,
 }
 
