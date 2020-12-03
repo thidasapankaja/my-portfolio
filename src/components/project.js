@@ -1,18 +1,18 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
-import githubImage from '../assets/github.svg';
-import www from '../assets/www.svg';
+import githubImage from "../assets/github.svg"
+import www from "../assets/www.svg"
 
 const TechStack = styled.span`
-  font-weight : 800;
-  color:#e7eaf6;
+  font-weight: 800;
+  color: #e7eaf6;
 `
 const Title = styled.h3`
-  font-weight : 700;
-  padding-top : -30px;
-  margin-bottom : -1px;
-  font-size : 48px;
+  font-weight: 700;
+  padding-top: -30px;
+  margin-bottom: -1px;
+  font-size: 48px;
   @media (max-width: 600px) {
     font-size: 28px;
   }
@@ -20,61 +20,68 @@ const Title = styled.h3`
 
 const Checkstatus = (github, live) => {
   if (github !== null && live === null) {
-    return(
+    return (
       <span>
         <a href={github} target="_blank" rel="noopener noreferrer">
-          <img alt='github' className="Image" src={githubImage} />
+          <img alt="github" className="Image" src={githubImage} />
         </a>
       </span>
     )
-  }
-  else if(github === null && live !== null){
-    return(
+  } else if (github === null && live !== null) {
+    return (
       <span>
         <a href={live} target="_blank" rel="noopener noreferrer">
-          <img alt='website' className="Image" src={www} />
+          <img alt="website" className="Image" src={www} />
         </a>
       </span>
     )
-  }
-  else if(github !== null && live !== null){
-    return(
+  } else if (github !== null && live !== null) {
+    return (
       <span>
         <a href={github} target="_blank" rel="noopener noreferrer">
-          <img alt='github' className="Image" src={githubImage} />
+          <img alt="github" className="Image" src={githubImage} />
         </a>
         <a href={live} target="_blank" rel="noopener noreferrer">
-          <img alt='website' className="Image" src={www} />
+          <img alt="website" className="Image" src={www} />
         </a>
       </span>
     )
+  } else {
+    return
   }
-  else {
-    return;
-  }
-  };
-
-const Project = ({ node }) => {
-    return(
-      <div key={node.id}  className='Card'>
-        <div className='Full'>
-            <Title>{node.title}</Title>
-            <p><span className='justify-text'>{node.description.description}</span></p>
-            {node.projectSpecial ? 
-                <span style={{ color: 'white'}} className='justify-text'>
-                  {node.projectSpecial.description.description}
-                  <a style={{ color: 'white'}} href={node.projectSpecial.link} target="_blank" rel="noopener noreferrer">
-                      {node.projectSpecial.placeholder}
-                  </a> {node.projectSpecial.descriptionSecondary.descriptionSecondary}
-                </span> 
-                : ''}
-            <p><TechStack>{node.tech}</TechStack></p>
-            <div className="Links">
-                {Checkstatus(node.githubUrl, node.liveUrl)}
-            </div>
-        </div>
-      </div>
-    )
 }
 
-export default Project;
+const Project = ({ node }) => {
+  return (
+    <div key={node.id} className="Card">
+      <div className="Full">
+        <Title>{node.title}</Title>
+        <p>
+          <span className="justify-text">{node.description.description}</span>
+        </p>
+        {node.projectSpecial ? (
+          <span style={{ color: "white" }} className="justify-text">
+            {node.projectSpecial.description.description}
+            <a
+              style={{ color: "white" }}
+              href={node.projectSpecial.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {node.projectSpecial.placeholder}
+            </a>{" "}
+            {node.projectSpecial.descriptionSecondary.descriptionSecondary}
+          </span>
+        ) : (
+          ""
+        )}
+        <p>
+          <TechStack>{node.tech}</TechStack>
+        </p>
+        <div className="Links">{Checkstatus(node.githubUrl, node.liveUrl)}</div>
+      </div>
+    </div>
+  )
+}
+
+export default Project
