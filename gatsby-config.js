@@ -20,17 +20,6 @@ module.exports = {
         path: `${__dirname}/src/assets`,
       },
     },
-    {
-      resolve: `gatsby-plugin-web-font-loader`,
-      options: {
-        fonts: [
-          {
-            families: [`Inconsolata`],
-            variants: [`400`, `700`]
-          },
-        ],
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
