@@ -21,16 +21,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-web-font-loader`,
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        fonts: [
-          {
-            families: [`Inconsolata`],
-            variants: [`400`, `700`]
-          },
-        ],
-      },
-    },
+        google: {
+          families: ['Inconsolata']
+        }
+      }
+    }
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

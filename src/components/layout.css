@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: local('Inconsolata'), url(../assets/Inconsolata/Inconsolata-SemiBold.ttf) format('truetype');
+}
+
 
 h3 {
   margin: 0;

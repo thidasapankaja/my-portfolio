@@ -81,7 +81,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: ["javascript", "reactjs", "c#", ".net", "nodejs"],
+  meta: ["javascript", "reactjs", "golang", "go", "c#", ".net", "nodejs"],
   keywords: [
     "thidasa",
     "pankaja",
